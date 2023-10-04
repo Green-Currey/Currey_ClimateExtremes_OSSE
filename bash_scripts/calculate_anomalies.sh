@@ -7,7 +7,7 @@ pre="$CRU/cru_ts4.07.1901.2022.pre.dat.nc"
 out="/discover/nobackup/bcurrey/Currey_IS_ClimateExtremes_OSSE/data/"
 ref1=1970
 ref2=2010
-year=2020
+year=2016
 
 echo -e "Select Month"
 cdo selmon,8 $tmp $out/${month}_tmp.nc
